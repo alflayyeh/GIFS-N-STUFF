@@ -1,0 +1,246 @@
+<title>Fog to Vows Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500;700&family=Figtree:wght@400;600&display=swap">
+<style>
+/* Layout: journey map (5 chapter bands of room tiles) on the left, sticky room inspector on the right; stacks on phones */
+:root{
+  --paper:#f7f2f4; --card:#fffbfc; --ink:#2a2230; --muted:#6d6274; --line:#e4d8df; --accent:#b8466a; --accent-soft:#f3dbe3;
+  --display:"Pixelify Sans", ui-monospace, monospace;
+  --body:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#17131b; --card:#211a26; --ink:#f1e9f1; --muted:#a99eb0; --line:#362b3d; --accent:#ee86a3; --accent-soft:#3a2431; color-scheme:dark}}
+:root[data-theme="dark"]{--paper:#17131b; --card:#211a26; --ink:#f1e9f1; --muted:#a99eb0; --line:#362b3d; --accent:#ee86a3; --accent-soft:#3a2431; color-scheme:dark}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:28px 48px}
+header{display:flex;flex-direction:column;gap:6px;margin-bottom:22px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,5vw,44px);line-height:1.05;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:0;max-width:68ch}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.chip{font-family:var(--display);font-size:13px;padding:3px 9px;border:1px solid var(--line);border-radius:4px;background:var(--card)}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,440px);gap:24px;align-items:start}
+@media (max-width:920px){.grid{grid-template-columns:minmax(0,1fr)}}
+.act{display:flex;flex-direction:column;gap:10px;padding-block:14px}
+.act-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
+.act-head h2{font-family:var(--display);font-size:20px;margin:0;letter-spacing:.02em}
+.act-head span{color:var(--muted);font-size:13px}
+.swatch{width:14px;height:14px;border-radius:2px;flex:none;align-self:center}
+.rooms{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.link{display:flex;flex-direction:column;align-items:center;color:var(--muted);font-size:11px;line-height:1.2;min-width:34px;text-align:center}
+.link b{font-family:var(--display);font-size:16px;color:var(--accent);font-weight:500}
+.tile{all:unset;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:column;gap:5px;width:132px;padding:7px;border:1px solid var(--line);border-radius:6px;background:var(--card);transition:transform .12s, border-color .12s}
+.tile:hover{transform:translateY(-2px);border-color:var(--accent)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.tile[aria-pressed="true"]{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-soft)}
+.thumb{height:70px;display:flex;align-items:center;justify-content:center}
+.thumb svg{max-width:100%;max-height:70px}
+.tid{font-family:var(--display);font-size:11px;color:var(--muted);letter-spacing:.03em}
+.tname{font-size:13px;font-weight:600;line-height:1.25}
+.travel{display:flex;align-items:center;gap:10px;margin:4px 0;padding:10px 12px;border:1px dashed var(--accent);border-radius:6px;color:var(--ink);background:var(--accent-soft);font-size:13px}
+.travel .tag{font-family:var(--display);color:var(--accent);white-space:nowrap}
+.inspector{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+@media (max-width:920px){.inspector{position:static}}
+.ins-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.ins-top h3{font-family:var(--display);font-size:24px;margin:0;line-height:1.1}
+.ins-id{font-family:var(--display);font-size:12px;color:var(--muted)}
+.nav{display:flex;gap:6px;flex:none}
+.nav button{font-family:var(--display);font-size:14px;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:4px 10px;cursor:pointer}
+.nav button:hover{border-color:var(--accent)}
+.nav button:focus-visible{outline:2px solid var(--accent)}
+.stage{background:var(--paper);border-radius:6px;padding:10px;display:flex;justify-content:center}
+.stage svg{width:100%;height:auto;max-height:360px}
+.legend{list-style:none;margin:0;padding:0;display:grid;gap:4px;font-size:13px}
+.legend li{display:flex;gap:8px;align-items:baseline}
+.num{font-family:var(--display);font-size:11px;min-width:18px;height:18px;display:inline-flex;align-items:center;justify-content:center;background:#2b2433;color:#fff;border-radius:3px;flex:none}
+.dot{width:12px;height:12px;border-radius:50%;display:inline-block;flex:none;transform:translateY(1px)}
+dl{margin:0;display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 12px;font-size:14px}
+dt{font-family:var(--display);color:var(--muted);font-size:12px;letter-spacing:.04em;text-transform:uppercase;padding-top:2px}
+dd{margin:0}
+.note{font-size:12px;color:var(--muted);margin:0}
+@media (prefers-reduced-motion:reduce){.tile{transition:none}.tile:hover{transform:none}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>From the Fog to the Vows</h1>
+    <p class="sub">The whole world, room by room. Each tile is a layout sketch: the room's shape, the path you walk (dashed), where you come in (green) and leave (red), and its key landmarks. Click any room, or use the arrows to walk the journey in order.</p>
+    <div class="stats"><span class="chip">19 rooms</span><span class="chip">6 transitions</span><span class="chip">5 chapters</span><span class="chip">1 airport</span></div>
+  </header>
+  <div class="grid">
+    <main id="map"></main>
+    <aside class="inspector" id="ins" aria-live="polite"></aside>
+  </div>
+  <p class="note" style="margin-top:20px">These are blockouts for checking scale and flow. No final art has been made yet; colors only hint at each chapter's palette.</p>
+</div>
+
+<script>
+const ACTS={
+ SF:{name:"I · San Francisco",time:"Morning fog → clear noon",floor:"#cfdcd4",band:"#93aab1",wall:"#6f8a86",path:"#3d5a57"},
+ NYC:{name:"II · New York",time:"Late afternoon → night",floor:"#d3b9a8",band:"#555a70",wall:"#8a4f3d",path:"#5a2f24"},
+ JED:{name:"III · Jeddah",time:"Warm night",floor:"#e6cc9c",band:"#1f3a50",wall:"#8f6a3a",path:"#6a4316"},
+ RUH:{name:"IV · Riyadh",time:"Golden hour → blue hour",floor:"#ddd7ca",band:"#6f97b8",wall:"#8a8170",path:"#3b5a74"},
+ ITA:{name:"V · Italy & the Wedding",time:"Golden afternoon → string-lit night",floor:"#ecd0ab",band:"#c98763",wall:"#9b6a48",path:"#7a3b2a"}
+};
+const R=[
+ {id:"SF_01_OUR_STREET",act:"SF",name:"Our Street",size:"MEDIUM",w:24,h:13,band:"Fog bank, pastel Victorians climbing the hill",
+  path:[[.3,.7],[.55,.64],[.86,.45]],pins:[[.3,.55,"Our yellow Victorian & stoop"],[.52,.84,"Parked car on the slope"],[.88,.36,"Corner café awning"]],
+  in:"Game start, on our stoop",out:"Café door (top-right)",
+  see:"Sloped street of bay-window Victorians in soft morning fog. Gull on a lamp post. The Golden Gate is hidden on purpose.",
+  moment:"First frame: two tiny figures on a pastel stoop. “Coffee first?”"},
+ {id:"SF_02_CORNER_CAFE",act:"SF",name:"The Corner Café",size:"SMALL",w:12,h:9,interior:true,via:"door",
+  path:[[.5,.95],[.28,.55],[.72,.55],[.9,.12]],pins:[[.24,.35,"Counter, pastry case, barista"],[.72,.68,"Our window booth"],[.5,.15,"Corkboard with our polaroid"],[.9,.1,"Back patio door"]],
+  in:"Front door (bottom)",out:"Back patio gate (top-right)",
+  see:"Small warm wood café, steamed windows with fog pressing outside, sourdough, mismatched mugs.",
+  moment:"Our first-date table. The barista greets us by name. Memento: polaroid."},
+ {id:"SF_03_LYON_STREET_STEPS",act:"SF",name:"Lyon Street Steps",size:"MEDIUM",w:14,h:22,via:"patio gate",
+  path:[[.5,.04],[.82,.2],[.22,.36],[.12,.46],[.8,.6],[.24,.8],[.5,.96]],pins:[[.5,.05,"Café patio gate"],[.1,.46,"Overlook: Palace dome & bay"],[.82,.62,"Joggers & dog walker"],[.5,.95,"Presidio stone pillars"]],
+  in:"Top, through the patio gate",out:"Stone pillars (bottom)",
+  see:"Switchback stone stairs through sculpted hedges. Fog thinning below.",
+  moment:"At the landing the hedges part and the fog starts lifting off the bay."},
+ {id:"SF_04_CRISSY_FIELD",act:"SF",name:"Crissy Field",size:"MEDIUM",w:26,h:13,band:"Bay water, Golden Gate emerging from the fog (left)",via:"walk",
+  path:[[.95,.78],[.62,.62],[.32,.64],[.12,.86]],pins:[[.14,.12,"Golden Gate Bridge"],[.46,.56,"Beach log"],[.3,.5,"Sand dollar"],[.1,.86,"Warming Hut & our car"]],
+  in:"East end, eucalyptus path",out:"Car in the lot (bottom-left) → flight",
+  see:"Beach, dune grass, a dog chasing gulls, kites, windsurfers.",
+  moment:"Walking west, the fog peels off the bridge until it's fully revealed."},
+ {id:"NYC_01_42ND_ST_BRYANT_PARK",act:"NYC",name:"42nd St & Bryant Park",size:"LARGE",w:32,h:14,band:"Towers cropping the frame, Empire State spire",via:"T1",
+  path:[[.88,.86],[.62,.64],[.48,.46],[.22,.46],[.05,.62]],pins:[[.88,.88,"Taxi pulling away"],[.55,.38,"Bryant Park chairs & carousel"],[.24,.34,"Library lions"],[.72,.72,"Steam vent & bodega"],[.05,.62,"Subway globes"]],
+  in:"Bottom-right curb",out:"Subway stairs (far left)",
+  see:"The densest street in the game: crowds in lanes, taxis, scaffolding, towers leaving the screen.",
+  moment:"The first look up. Memento: library-lion keychain."},
+ {id:"NYC_02_BROWNSTONE_BLOCK",act:"NYC",name:"Brownstone Block",size:"MEDIUM",w:14,h:22,band:"Central Park treetops",via:"T2 subway",
+  path:[[.12,.95],[.45,.76],[.5,.52],[.8,.5]],pins:[[.12,.95,"Subway exit"],[.3,.64,"Neighbor & bodega cat"],[.84,.48,"Our walk-up stoop"],[.5,.28,"Park wall (edge)"]],
+  in:"Subway stairs (bottom-left)",out:"Our stoop door → stairwell",
+  see:"Upper West Side at dusk: stoops, iron railings, ginkgo trees, windows turning gold.",
+  moment:"“Home for the night.”"},
+ {id:"NYC_03_ROOFTOP_NIGHT",act:"NYC",name:"The Rooftop",size:"MEDIUM",w:18,h:16,band:"Midtown skyline at night",via:"stairwell",
+  path:[[.5,.93],[.34,.62],[.58,.36]],pins:[[.5,.93,"Roof bulkhead door"],[.2,.56,"Water tower"],[.6,.34,"Two folding chairs"],[.82,.68,"Tomato buckets"]],
+  in:"Bulkhead door (bottom)",out:"Sit at the parapet → flight",
+  see:"Tar-paper roof, wooden water tower, one bare bulb, the skyline glittering far off.",
+  moment:"A plane's lights blink across the sky. The next chapter calls."},
+ {id:"JED_01_AIRPORT_ARRIVALS",act:"JED",name:"Arrivals & Curb",size:"SMALL–MED",w:24,h:12,band:"Runway lights, tail fins",split:.33,via:"T3",
+  path:[[.1,.62],[.33,.62],[.7,.72],[.92,.72]],pins:[[.12,.42,"Baggage carousel"],[.33,.62,"Sliding glass doors"],[.6,.32,"White tent canopy"],[.92,.74,"Waiting car"]],
+  in:"Arrivals hall (left)",out:"Car door → Corniche",
+  see:"Cool white hall on the left; amber-lit curb under a tent canopy with palms on the right.",
+  moment:"The doors slide open and the warm night hits."},
+ {id:"JED_02_CORNICHE",act:"JED",name:"The Corniche",size:"MEDIUM",w:26,h:13,band:"Dark Red Sea, King Fahd Fountain (right)",via:"car",
+  path:[[.05,.76],[.3,.62],[.5,.6],[.72,.6],[.95,.76]],pins:[[.28,.72,"Karak & ice-cream cart"],[.48,.3,"Lantern-lit pier"],[.72,.54,"Bench facing the fountain"],[.86,.1,"King Fahd Fountain"],[.96,.74,"Lantern arch inland"]],
+  in:"Car drop-off (left)",out:"Lantern arch (right)",
+  see:"Palm promenade, amber lamps rippling on black-blue water, families on carpets.",
+  moment:"Sitting together as the fountain rises white on the horizon."},
+ {id:"JED_03_ENTRECOTE_STREET",act:"JED",name:"Entrecôte Street",size:"SMALL–MED",w:20,h:12,band:"Rooftops, minaret, sea-glow",via:"arch",
+  path:[[.04,.72],[.4,.72],[.5,.34]],pins:[[.2,.34,"Rawasheen balconies"],[.5,.3,"Entrecôte door & doorman"],[.82,.4,"Shisha café"],[.75,.84,"Valet cars"]],
+  in:"Lantern arch (left)",out:"Restaurant door (top-center)",
+  see:"Lively evening street: coral-stone houses with carved green balconies, lanterns, a kid with balloons.",
+  moment:"Warm light spilling from the open door across the paving."},
+ {id:"JED_04_ENTRECOTE_INTERIOR",act:"JED",name:"Inside Entrecôte",size:"MEDIUM",w:14,h:12,interior:true,via:"door",
+  path:[[.5,.95],[.3,.78],[.52,.5],[.8,.26]],pins:[[.24,.86,"Host stand"],[.15,.36,"Service bar"],[.5,.1,"Bistro mirror"],[.82,.22,"Our corner table"]],
+  in:"Front door (bottom)",out:"Front door after dinner → flight",
+  see:"Wood paneling, mirrors, brass sconces, white cloths, candle for two.",
+  moment:"The dinner. Memento: matchbook."},
+ {id:"RUH_01_KAFD_WADI",act:"RUH",name:"KAFD Wadi Approach",size:"LARGE",w:18,h:30,band:"PIF Tower crown, crystal towers",via:"T4",
+  path:[[.5,.97],[.3,.82],[.7,.66],[.35,.5],[.6,.34],[.5,.06]],pins:[[.5,.96,"Metro lattice canopy"],[.2,.78,"Family at the water channel"],[.76,.62,"Acacia bench"],[.5,.4,"Skywalk & monorail overhead"],[.5,.07,"Steps between towers"]],
+  in:"Metro escalator (bottom)",out:"Top steps",
+  see:"Terraced desert planting and water channels climbing between faceted glass towers.",
+  moment:"The monorail glides overhead as the PIF crown catches the last gold."},
+ {id:"RUH_02_KAFD_PLAZA",act:"RUH",name:"KAFD Plaza & Terrace",size:"MEDIUM",w:18,h:16,band:"Tower cluster lighting up at blue hour",via:"steps",
+  path:[[.5,.95],[.2,.72],[.5,.52],[.5,.3]],pins:[[.18,.74,"Coffee kiosk: qahwa & dates"],[.5,.56,"Reflecting pool"],[.86,.46,"KAFD Grand Mosque"],[.5,.28,"Terrace bench"]],
+  in:"Wadi steps (bottom)",out:"Camera rises → flight",
+  see:"Polished geometric plaza, long reflecting pool, the mosque glowing to one side.",
+  moment:"The promise. Memento: finjan cup."},
+ {id:"ITA_01_HILL_TOWN_PIAZZA",act:"ITA",name:"The Piazza",size:"MEDIUM",w:20,h:16,band:"Terracotta roofs stepping up the hill",via:"T5",
+  path:[[.5,.95],[.42,.62],[.66,.46],[.95,.5]],pins:[[.5,.3,"Bell tower"],[.28,.42,"Café + first white ribbon"],[.5,.6,"Old fountain"],[.72,.74,"Florist"],[.95,.5,"East gate, “Villa” sign"]],
+  in:"Town gate (bottom)",out:"East arch (right)",
+  see:"Golden cobbled piazza, ochre stucco, laundry lines, gelato cart, lemon pots.",
+  moment:"One white ribbon on a café chair."},
+ {id:"ITA_02_CYPRESS_ROAD",act:"ITA",name:"Cypress Road",size:"MEDIUM",w:22,h:16,via:"walk",
+  path:[[.05,.95],[.4,.76],[.3,.52],[.66,.36],[.95,.12]],pins:[[.38,.72,"Stone bridge & stalled flower truck"],[.66,.42,"Roadside shrine"],[.6,.1,"Villa on the hill"],[.95,.1,"Estate gate"]],
+  in:"Bottom-left",out:"Iron estate gate (top-right)",
+  see:"White road through vineyards and cypress. A ribbon on every post. Sky turning orange.",
+  moment:"Gathering spilled roses. The realization lands."},
+ {id:"ITA_03_VILLA_COURTYARD",act:"ITA",name:"Villa Courtyard",size:"MEDIUM",w:20,h:15,band:"Villa facade & loggia",via:"gate",
+  path:[[.5,.95],[.52,.74],[.3,.52],[.5,.3]],pins:[[.5,.94,"White-rose arch"],[.58,.62,"Flower-wrapped fountain"],[.26,.48,"Benvenuti board (our names)"],[.5,.28,"Front door"],[.84,.3,"Side door: partner whisked away"]],
+  in:"Gate arch (bottom)",out:"Villa front door",
+  see:"Gravel courtyard at sunset, guests arriving, ribboned vintage car.",
+  moment:"Separation. For the first time, you walk alone."},
+ {id:"ITA_04_GETTING_READY",act:"ITA",name:"Getting-Ready Room",size:"SMALL",w:12,h:9,interior:true,via:"door",
+  path:[[.2,.95],[.45,.5],[.7,.22],[.92,.12]],pins:[[.2,.3,"Mirror"],[.45,.38,"Dresser with every memento"],[.7,.12,"Window over the garden"],[.92,.12,"French doors"]],
+  in:"Door (bottom)",out:"French doors → garden",
+  see:"Sunlit villa bedroom, frescoed walls, the outfit on a stand, a note from your partner.",
+  moment:"Through the window, the garden's string lights switch on, row by row."},
+ {id:"ITA_05_GARDEN_CEREMONY",act:"ITA",name:"Garden Ceremony",size:"LARGE (largest)",w:24,h:32,band:"Hedge wall, a sliver of valley",via:"French doors",
+  path:[[.5,.97],[.5,.12]],pins:[[.5,.95,"Loggia steps"],[.5,.84,"Vine pergola"],[.24,.5,"Guests in ribboned rows"],[.82,.38,"Violinist"],[.5,.11,"Arch: your partner waiting"]],
+  in:"Loggia steps (bottom)",out:"Through the arch after the vows",
+  see:"Walled garden at dusk, petal aisle, candles, a canopy of string lights.",
+  moment:"The aisle walk and the vows, naming every city."},
+ {id:"ITA_06_RECEPTION_TERRACE",act:"ITA",name:"Reception Terrace",size:"MEDIUM",w:26,h:13,band:"The whole valley at night",via:"arch",
+  path:[[.04,.62],[.32,.7],[.7,.34],[.56,.62]],pins:[[.3,.66,"Table of friends from every city"],[.7,.3,"Balustrade view"],[.56,.62,"Dance floor"],[.86,.72,"Cake"]],
+  in:"Arch path (left)",out:"First dance → ending",
+  see:"Long tables under lights, lanterns, the valley finally open under the stars.",
+  moment:"Everyone you met is here. The first dance."}
+];
+const TRAVEL={
+ SF:{tag:"T1 · Postcard",text:"Golden Gate through the car window → plane over the fog → taxi over the Queensboro Bridge"},
+ NYC:{tag:"T3 · Postcard",text:"Follow the plane's lights over a moonlit ocean → amber lights on the Red Sea"},
+ JED:{tag:"T4 · Stamp",text:"Boarding pass JED → RUH → desert at golden hour → escalator into a white lattice"},
+ RUH:{tag:"T5 · Postcard",text:"Tower lights become stars → clouds part over cypress hills → little train to the town gate"},
+ ITA:{tag:"T6 · Ending",text:"Lanterns rise, the camera lifts over the estate, the journey map lights all six stops"}
+};
+const NS="http://www.w3.org/2000/svg";
+function svg(room,big){
+  const a=ACTS[room.act],u=8,W=room.w*u,H=room.h*u,p=big?10:3;
+  const X=f=>p+f*W,Y=f=>p+f*H;
+  let s=`<svg xmlns="${NS}" viewBox="0 0 ${W+2*p} ${H+2*p}" role="img" aria-label="Layout sketch of ${room.name}" shape-rendering="crispEdges">`;
+  s+=`<rect x="${p}" y="${p}" width="${W}" height="${H}" fill="${a.floor}"/>`;
+  if(big){for(let i=1;i<room.w;i++)s+=`<line x1="${X(i/room.w)}" y1="${p}" x2="${X(i/room.w)}" y2="${p+H}" stroke="#000" stroke-opacity=".06"/>`;
+          for(let j=1;j<room.h;j++)s+=`<line x1="${p}" y1="${Y(j/room.h)}" x2="${p+W}" y2="${Y(j/room.h)}" stroke="#000" stroke-opacity=".06"/>`;}
+  if(room.band)s+=`<rect x="${p}" y="${p}" width="${W}" height="${H*.2}" fill="${a.band}"/>`;
+  if(room.split)s+=`<rect x="${p}" y="${p}" width="${W*room.split}" height="${H}" fill="#f4f1ea" fill-opacity=".55"/><line x1="${X(room.split)}" y1="${p}" x2="${X(room.split)}" y2="${p+H}" stroke="${a.wall}" stroke-width="3"/>`;
+  if(room.interior)s+=`<rect x="${p+3}" y="${p+3}" width="${W-6}" height="${H-6}" fill="none" stroke="${a.wall}" stroke-width="6"/>`;
+  else s+=`<rect x="${p}" y="${p}" width="${W}" height="${H}" fill="none" stroke="${a.wall}" stroke-width="${big?2:1.5}"/>`;
+  const pts=room.path.map(q=>`${X(q[0])},${Y(q[1])}`).join(" ");
+  s+=`<polyline points="${pts}" fill="none" stroke="${a.path}" stroke-width="${big?3:2.5}" stroke-dasharray="${big?'6 4':'4 3'}" stroke-linejoin="round" stroke-linecap="round" shape-rendering="geometricPrecision"/>`;
+  room.pins.forEach((q,i)=>{
+    if(big)s+=`<rect x="${X(q[0])-7}" y="${Y(q[1])-7}" width="14" height="14" rx="2" fill="#2b2433"/><text x="${X(q[0])}" y="${Y(q[1])+4}" font-size="10" text-anchor="middle" fill="#fff" font-family="Pixelify Sans, monospace">${i+1}</text>`;
+    else s+=`<rect x="${X(q[0])-3}" y="${Y(q[1])-3}" width="6" height="6" fill="#2b2433"/>`;
+  });
+  const f=room.path[0],l=room.path[room.path.length-1],r=big?6:4.5;
+  s+=`<circle cx="${X(f[0])}" cy="${Y(f[1])}" r="${r}" fill="#2f8f5b" stroke="#fff" stroke-width="1.5" shape-rendering="geometricPrecision"/>`;
+  s+=`<circle cx="${X(l[0])}" cy="${Y(l[1])}" r="${r}" fill="#d0473b" stroke="#fff" stroke-width="1.5" shape-rendering="geometricPrecision"/>`;
+  return s+`</svg>`;
+}
+const map=document.getElementById("map"),ins=document.getElementById("ins");
+let cur=0;const tiles=[];
+Object.keys(ACTS).forEach(k=>{
+  const a=ACTS[k],sec=document.createElement("section");sec.className="act";
+  sec.innerHTML=`<div class="act-head"><span class="swatch" style="background:${a.band}"></span><h2>${a.name}</h2><span>${a.time}</span></div>`;
+  const row=document.createElement("div");row.className="rooms";
+  R.forEach((room,i)=>{ if(room.act!==k)return;
+    if(room.via&&row.children.length){const l=document.createElement("div");l.className="link";l.innerHTML=`<b>→</b>${room.via.startsWith("T2")?"subway":room.via}`;row.appendChild(l);}
+    const b=document.createElement("button");b.className="tile";b.id="tile-"+i;b.setAttribute("aria-pressed","false");
+    b.innerHTML=`<div class="thumb">${svg(room,false)}</div><div class="tid">${room.id.split("_").slice(0,2).join("_")}</div><div class="tname">${room.name}</div>`;
+    b.onclick=()=>{show(i);if(window.matchMedia("(max-width:920px)").matches)ins.scrollIntoView({behavior:"smooth",block:"start"});};
+    tiles[i]=b;row.appendChild(b);
+  });
+  sec.appendChild(row);map.appendChild(sec);
+  const t=TRAVEL[k],d=document.createElement("div");d.className="travel";
+  d.innerHTML=`<span class="tag">${t.tag}</span><span>${t.text}</span>`;map.appendChild(d);
+});
+function show(i){
+  cur=(i+R.length)%R.length;const r=R[cur],a=ACTS[r.act];
+  tiles.forEach((t,j)=>t.setAttribute("aria-pressed",j===cur?"true":"false"));
+  ins.innerHTML=`<div class="ins-top"><div><div class="ins-id">${cur+1} / ${R.length} · ${r.id}</div><h3>${r.name}</h3></div>
+   <div class="nav"><button id="prev" aria-label="Previous room">←</button><button id="next" aria-label="Next room">→</button></div></div>
+   <div class="stage">${svg(r,true)}</div>
+   <ul class="legend">
+     <li><span class="dot" style="background:#2f8f5b"></span><span><b>In:</b> ${r.in}</span></li>
+     <li><span class="dot" style="background:#d0473b"></span><span><b>Out:</b> ${r.out}</span></li>
+     ${r.pins.map((q,j)=>`<li><span class="num">${j+1}</span><span>${q[2]}</span></li>`).join("")}
+     ${r.band?`<li><span class="dot" style="background:${a.band};border-radius:2px"></span><span><b>Backdrop:</b> ${r.band}</span></li>`:""}
+   </ul>
+   <dl><dt>Chapter</dt><dd>${a.name} · ${a.time}</dd><dt>Size</dt><dd>${r.size} · ${r.w}×${r.h} tiles</dd><dt>Looks like</dt><dd>${r.see}</dd><dt>Moment</dt><dd>${r.moment}</dd></dl>`;
+  document.getElementById("prev").onclick=()=>show(cur-1);
+  document.getElementById("next").onclick=()=>show(cur+1);
+}
+document.addEventListener("keydown",e=>{if(e.key==="ArrowRight")show(cur+1);if(e.key==="ArrowLeft")show(cur-1);});
+show(0);
+</script>
