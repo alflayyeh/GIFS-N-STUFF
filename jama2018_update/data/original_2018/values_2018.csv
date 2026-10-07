@@ -1,0 +1,1090 @@
+figure,indicator_id,indicator,country,country_name,value_2018,unit,source_2018,year_2018
+1,f1_pop,Overall population (in millions),US,United States,323.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),UK,United Kingdom,66.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),Germany,Germany,83.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),Sweden,Sweden,10.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),France,France,64.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),NLD,Netherlands,17.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),CHE,Switzerland,8.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),Denmark,Denmark,6.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),Canada,Canada,36.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),Japan,Japan,127.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop,Overall population (in millions),Australia,Australia,24.0,millions,World Bank WDI SP.POP.TOTL,2016
+1,f1_pop65,"Population ≥65 y, %",US,United States,14.5,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",UK,United Kingdom,17.3,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",Germany,Germany,21.4,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",Sweden,Sweden,19.9,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",France,France,18.2,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",NLD,Netherlands,17.3,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",CHE,Switzerland,17.5,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",Denmark,Denmark,18.1,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",Canada,Canada,15.7,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",Japan,Japan,25.1,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_pop65,"Population ≥65 y, %",Australia,Australia,14.7,% of population,"OECD.stat (Elderly population); JP, NL, CH from Commonwealth Fund",2014 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",US,United States,52.1,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",UK,United Kingdom,38.5,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",Germany,Germany,42.9,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",Sweden,Sweden,51.6,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",France,France,41.0,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",NLD,Netherlands,46.3,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",CHE,Switzerland,54.0,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",Denmark,Denmark,53.4,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",Canada,Canada,42.4,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",Japan,Japan,37.5,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_gdp,"GDP per capita, US $ (in thousands)",Australia,Australia,45.1,"US$ thousands, current prices, current PPPs",OECD.stat Productivity database (PDB_LV),2016 or closest
+1,f1_land,Land area (× 1000 sq km),US,United States,9834.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),UK,United Kingdom,244.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),Germany,Germany,357.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),Sweden,Sweden,450.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),France,France,549.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),NLD,Netherlands,42.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),CHE,Switzerland,42.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),Denmark,Denmark,43.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),Canada,Canada,9985.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),Japan,Japan,378.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_land,Land area (× 1000 sq km),Australia,Australia,7741.0,1000 km²,World Bank WDI AG.SRF.TOTL.K2,2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",US,United States,24.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",UK,United Kingdom,18.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",Germany,Germany,16.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",Sweden,Sweden,17.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",France,France,15.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",NLD,Netherlands,15.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",CHE,Switzerland,17.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",Denmark,Denmark,12.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",Canada,Canada,21.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",Japan,Japan,22.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_pov,"Poverty rate, % below poverty line of 60%",Australia,Australia,20.0,% of population,OECD Income Distribution Database (IDD),2015
+1,f1_the,"Total spending on health, % of total national GDP",US,United States,17.8,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",UK,United Kingdom,9.7,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",Germany,Germany,11.3,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",Sweden,Sweden,11.9,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",France,France,11.0,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",NLD,Netherlands,10.5,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",CHE,Switzerland,12.4,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",Denmark,Denmark,10.8,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",Canada,Canada,10.3,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",Japan,Japan,10.9,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_the,"Total spending on health, % of total national GDP",Australia,Australia,9.6,% of GDP,WHO Global Health Expenditure Database via World Bank SH.XPD.TOTL.ZS,2016
+1,f1_pub,"Public spending on health, % of total national GDP",US,United States,8.3,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",UK,United Kingdom,7.6,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",Germany,Germany,8.7,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",Sweden,Sweden,10.0,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",France,France,8.7,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",NLD,Netherlands,9.5,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",CHE,Switzerland,7.7,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",Denmark,Denmark,9.2,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",Canada,Canada,7.4,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",Japan,Japan,8.6,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pub,"Public spending on health, % of total national GDP",Australia,Australia,6.3,% of GDP,World Bank SH.XPD.PUBL (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",US,United States,9403.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",UK,United Kingdom,3377.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",Germany,Germany,5182.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",Sweden,Sweden,6808.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",France,France,3661.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",NLD,Netherlands,5202.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",CHE,Switzerland,6787.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",Denmark,Denmark,6463.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",Canada,Canada,4641.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",Japan,Japan,3727.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_pc,"Mean spending on health per capita, US $",Australia,Australia,4357.0,"US$ per capita, current (nominal) exchange rates",World Bank SH.XPD.PCAP (WHO GHED),2016
+1,f1_inp,Inpatient care,US,United States,19.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,UK,United Kingdom,24.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,Germany,Germany,27.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,Sweden,Sweden,21.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,France,France,30.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,NLD,Netherlands,32.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,CHE,Switzerland,28.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,Denmark,Denmark,28.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,Canada,Canada,17.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,Japan,Japan,27.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_inp,Inpatient care,Australia,Australia,31.0,% of current health expenditure,OECD/Eurostat/WHO SHA joint questionnaire,2015 or closest
+1,f1_outp,Outpatient care,US,United States,42.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,UK,United Kingdom,30.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,Germany,Germany,23.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,Sweden,Sweden,31.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,France,France,23.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,NLD,Netherlands,22.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,CHE,Switzerland,33.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,Denmark,Denmark,34.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,Canada,Canada,36.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,Japan,Japan,27.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_outp,Outpatient care,Australia,Australia,39.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,US,United States,5.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,UK,United Kingdom,18.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,Germany,Germany,16.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,Sweden,Sweden,26.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,France,France,11.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,NLD,Netherlands,26.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,CHE,Switzerland,19.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,Denmark,Denmark,24.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,Canada,Canada,14.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,Japan,Japan,19.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_ltc,Long-term care,Australia,Australia,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,US,United States,14.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,UK,United Kingdom,15.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,Germany,Germany,20.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,Sweden,Sweden,12.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,France,France,20.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,NLD,Netherlands,12.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,CHE,Switzerland,13.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,Denmark,Denmark,10.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,Canada,Canada,20.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,Japan,Japan,20.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_goods,Medical goods,Australia,Australia,17.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,US,United States,8.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,UK,United Kingdom,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,Germany,Germany,5.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,Sweden,Sweden,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,France,France,1.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,NLD,Netherlands,4.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,CHE,Switzerland,4.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,Denmark,Denmark,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,Canada,Canada,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,Japan,Japan,1.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_admin,Governance and administration,Australia,Australia,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,US,United States,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,UK,United Kingdom,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,Germany,Germany,1.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,Sweden,Sweden,0.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,France,France,4.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,NLD,Netherlands,0.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,CHE,Switzerland,,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,Denmark,Denmark,,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,Canada,Canada,0.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,Japan,Japan,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_home,Home-based care,Australia,Australia,0.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,US,United States,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,UK,United Kingdom,5.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,Germany,Germany,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,Sweden,Sweden,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,France,France,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,NLD,Netherlands,4.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,CHE,Switzerland,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,Denmark,Denmark,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,Canada,Canada,6.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,Japan,Japan,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_prev,Preventive care,Australia,Australia,2.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,US,United States,6.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,UK,United Kingdom,3.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,Germany,Germany,5.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,Sweden,Sweden,5.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,France,France,9.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,NLD,Netherlands,0.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,CHE,Switzerland,1.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,Denmark,Denmark,0.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,Canada,Canada,4.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,Japan,Japan,1.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_other,Other,Australia,Australia,6.0,% of current health expenditure,OECD SHA,2015 or closest
+1,f1_cov,"Population with health care coverage, %",US,United States,90.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",UK,United Kingdom,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",Germany,Germany,99.8,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",Sweden,Sweden,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",France,France,99.9,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",NLD,Netherlands,99.9,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",CHE,Switzerland,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",Denmark,Denmark,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",Canada,Canada,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",Japan,Japan,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+1,f1_cov,"Population with health care coverage, %",Australia,Australia,100.0,% of population,OECD Health Statistics (social protection); US: CBO,2017
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",US,United States,11.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",UK,United Kingdom,16.1,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",Germany,Germany,20.9,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",Sweden,Sweden,11.2,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",France,France,22.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",NLD,Netherlands,19.0,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",CHE,Switzerland,20.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",Denmark,Denmark,17.0,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",Canada,Canada,14.0,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",Japan,Japan,18.2,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_smoke,"Smoking, % of population aged ≥15 y who smoke daily",Australia,Australia,12.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",US,United States,8.8,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",UK,United Kingdom,9.5,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",Germany,Germany,11.0,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",Sweden,Sweden,7.2,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",France,France,11.9,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",NLD,Netherlands,8.0,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",CHE,Switzerland,9.5,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",Denmark,Denmark,9.4,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",Canada,Canada,8.1,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",Japan,Japan,7.2,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_alc,"Alcohol consumption, L per capita in population aged ≥15 y",Australia,Australia,9.7,litres pure alcohol per capita 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",US,United States,70.1,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",UK,United Kingdom,62.9,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",Germany,Germany,60.0,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",Sweden,Sweden,48.3,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",France,France,49.0,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",NLD,Netherlands,47.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",CHE,Switzerland,41.0,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",Denmark,Denmark,47.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",Canada,Canada,60.3,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",Japan,Japan,23.8,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_obese,"Obese or overweight, % of population aged ≥15 y",Australia,Australia,63.4,% of population aged 15+,OECD Health at a Glance 2017,2015 or closest
+4,f4_le,"Life expectancy in total population at birth, mean, y",US,United States,78.8,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",UK,United Kingdom,81.0,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",Germany,Germany,80.7,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",Sweden,Sweden,82.3,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",France,France,82.4,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",NLD,Netherlands,81.6,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",CHE,Switzerland,83.0,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",Denmark,Denmark,80.8,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",Canada,Canada,81.7,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",Japan,Japan,83.9,years,OECD Health Statistics 2017,2015
+4,f4_le,"Life expectancy in total population at birth, mean, y",Australia,Australia,82.5,years,OECD Health Statistics 2017,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",US,United States,69.1,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",UK,United Kingdom,71.4,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",Germany,Germany,71.3,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",Sweden,Sweden,72.0,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",France,France,72.6,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",NLD,Netherlands,72.2,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",CHE,Switzerland,73.1,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",Denmark,Denmark,71.2,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",Canada,Canada,72.3,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",Japan,Japan,74.9,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_hale,"Health-adjusted life expectancy, mean, y",Australia,Australia,71.9,years,Listed as OECD 2017; values match WHO GHO HALE 2015,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",US,United States,42.6,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",UK,United Kingdom,43.7,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",Germany,Germany,43.9,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",Sweden,Sweden,44.8,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",France,France,46.4,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",NLD,Netherlands,43.9,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",CHE,Switzerland,45.8,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",Denmark,Denmark,43.4,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",Canada,Canada,44.8,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",Japan,Japan,47.7,years,OECD Health Statistics 2017,2015
+4,f4_le40f,"Life expectancy for women aged ≥40 y, mean, y",Australia,Australia,45.4,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",US,United States,38.7,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",UK,United Kingdom,40.5,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",Germany,Germany,39.4,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",Sweden,Sweden,41.5,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",France,France,40.6,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",NLD,Netherlands,40.8,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",CHE,Switzerland,42.0,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",Denmark,Denmark,39.8,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",Canada,Canada,41.1,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",Japan,Japan,41.8,years,OECD Health Statistics 2017,2015
+4,f4_le40m,"Life expectancy for men aged ≥40 y, mean, y",Australia,Australia,41.7,years,OECD Health Statistics 2017,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",US,United States,26.4,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",UK,United Kingdom,9.2,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",Germany,Germany,9.0,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",Sweden,Sweden,4.4,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",France,France,7.8,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",NLD,Netherlands,6.7,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",CHE,Switzerland,5.8,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",Denmark,Denmark,4.2,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",Canada,Canada,7.3,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",Japan,Japan,6.4,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_mmr,"Maternal mortality, deaths per 100 000 live births",Australia,Australia,5.5,per 100 000 live births,OECD 2015; Canada: Global Burden of Disease,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",US,United States,5.8,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",UK,United Kingdom,3.9,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",Germany,Germany,3.3,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",Sweden,Sweden,2.5,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",France,France,3.8,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",NLD,Netherlands,2.5,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",CHE,Switzerland,3.9,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",Denmark,Denmark,3.7,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",Canada,Canada,5.1,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",Japan,Japan,2.1,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_imr,"Infant mortality, deaths per 1000 live births",Australia,Australia,3.2,per 1000 live births,OECD 2015; Canada: Conference Board,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",US,United States,4.0,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",UK,United Kingdom,2.7,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",Germany,Germany,2.3,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",Sweden,Sweden,1.7,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",France,France,2.6,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",NLD,Netherlands,2.5,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",CHE,Switzerland,3.1,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",Denmark,Denmark,3.0,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",Canada,Canada,3.2,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",Japan,Japan,0.9,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr,"Neonatal mortality, deaths per 1000 live births",Australia,Australia,2.3,per 1000 live births,OECD 2015; Canada: World Data Atlas,2015
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",US,United States,1.61,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",UK,United Kingdom,1.77,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",Germany,Germany,1.49,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",Sweden,Sweden,1.56,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",France,France,,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",NLD,Netherlands,1.96,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",CHE,Switzerland,,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",Denmark,Denmark,2.09,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",Canada,Canada,1.63,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",Japan,Japan,,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_nmr1000,"Neonatal mortality, deaths per 1000 live births excluding <1000 g",Australia,Australia,,per 1000 live births,"Joseph et al, BMJ 2012 (one-off study; US 2004 data)",2004-2008
+4,f4_lbw,"Low birth weight, % of total live births",US,United States,8.1,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",UK,United Kingdom,6.9,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",Germany,Germany,6.6,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",Sweden,Sweden,4.4,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",France,France,6.2,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",NLD,Netherlands,6.5,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",CHE,Switzerland,,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",Denmark,Denmark,5.0,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",Canada,Canada,6.3,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",Japan,Japan,9.5,% of live births,OECD 2015,2015
+4,f4_lbw,"Low birth weight, % of total live births",Australia,Australia,6.4,% of live births,OECD 2015,2015
+5,f5_phys,Overall physicians per 1000 population,US,United States,2.6,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,UK,United Kingdom,2.1,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,Germany,Germany,4.1,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,Sweden,Sweden,4.2,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,France,France,3.1,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,NLD,Netherlands,3.5,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,CHE,Switzerland,4.3,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,Denmark,Denmark,3.6,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,Canada,Canada,2.6,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,Japan,Japan,2.4,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_phys,Overall physicians per 1000 population,Australia,Australia,3.5,per 1000 population,"KFF, GMC, CMA, Eurostat, national sources (eTable 10)",2013-2017
+5,f5_pcp,"Primary care physicians, % of total",US,United States,43.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",UK,United Kingdom,45.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",Germany,Germany,45.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",Sweden,Sweden,33.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",France,France,54.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",NLD,Netherlands,47.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",CHE,Switzerland,48.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",Denmark,Denmark,22.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",Canada,Canada,48.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",Japan,Japan,43.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_pcp,"Primary care physicians, % of total",Australia,Australia,45.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",US,United States,57.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",UK,United Kingdom,55.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",Germany,Germany,55.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",Sweden,Sweden,67.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",France,France,46.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",NLD,Netherlands,53.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",CHE,Switzerland,52.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",Denmark,Denmark,78.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",Canada,Canada,52.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",Japan,Japan,57.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_spec,"Specialists, % of total",Australia,Australia,55.0,% of physicians,National registers (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,US,United States,11.1,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,UK,United Kingdom,8.2,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,Germany,Germany,13.0,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,Sweden,Sweden,11.2,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,France,France,9.4,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,NLD,Netherlands,12.1,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,CHE,Switzerland,17.4,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,Denmark,Denmark,16.3,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,Canada,Canada,9.5,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,Japan,Japan,10.5,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_nurse,Nurses per 1000 population,Australia,Australia,11.5,per 1000 population,OECD / national (eTable 10),2013-2017
+5,f5_rem_gp,Generalist physicians,US,United States,218173.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,UK,United Kingdom,134671.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,Germany,Germany,154126.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,Sweden,Sweden,86607.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,France,France,111769.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,NLD,Netherlands,109586.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,CHE,Switzerland,,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,Denmark,Denmark,,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,Canada,Canada,146286.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,Japan,Japan,124558.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_gp,Generalist physicians,Australia,Australia,108564.0,US$ PPP per year (2017 dollars),"Mixed national sources (eTable 11), PPP, inflated to 2017 with US CPI",2011-2017
+5,f5_rem_sp,Specialist physicians,US,United States,316000.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,UK,United Kingdom,171987.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,Germany,Germany,181243.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,Sweden,Sweden,98452.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,France,France,153180.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,NLD,Netherlands,191995.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,CHE,Switzerland,,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,Denmark,Denmark,140505.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,Canada,Canada,188260.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,Japan,Japan,,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_sp,Specialist physicians,Australia,Australia,202291.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,US,United States,74160.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,UK,United Kingdom,49894.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,Germany,Germany,53668.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,Sweden,Sweden,,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,France,France,42492.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,NLD,Netherlands,65082.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,CHE,Switzerland,,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,Denmark,Denmark,58891.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,Canada,Canada,55349.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,Japan,Japan,44712.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_rem_nurse,Nurses,Australia,Australia,64357.0,US$ PPP per year (2017 dollars),Mixed national sources (eTable 11),2011-2017
+5,f5_wage,"Non-health-specific annual wage, mean",US,United States,60154.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",UK,United Kingdom,42835.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",Germany,Germany,46389.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",Sweden,Sweden,42816.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",France,France,42992.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",NLD,Netherlands,52833.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",CHE,Switzerland,60124.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",Denmark,Denmark,52580.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",Canada,Canada,48403.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",Japan,Japan,39113.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_wage,"Non-health-specific annual wage, mean",Australia,Australia,52063.0,US$ PPP per year,OECD.stat average annual wages,2016
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,US,United States,3.6,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,UK,United Kingdom,3.1,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,Germany,Germany,3.3,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,Sweden,Sweden,2.0,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,France,France,2.6,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,NLD,Netherlands,2.1,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,CHE,Switzerland,,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,Denmark,Denmark,,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,Canada,Canada,3.0,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,Japan,Japan,,ratio,Computed,—
+5,f5_ratio_gp,Ratio of generalist remuneration to mean wage,Australia,Australia,2.1,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,US,United States,5.3,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,UK,United Kingdom,3.4,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,Germany,Germany,3.9,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,Sweden,Sweden,2.3,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,France,France,3.6,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,NLD,Netherlands,3.6,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,CHE,Switzerland,,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,Denmark,Denmark,2.6,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,Canada,Canada,3.9,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,Japan,Japan,,ratio,Computed,—
+5,f5_ratio_sp,Ratio of specialists remuneration to mean wage,Australia,Australia,3.8,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,US,United States,1.23,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,UK,United Kingdom,1.16,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,Germany,Germany,1.16,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,Sweden,Sweden,,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,France,France,0.99,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,NLD,Netherlands,1.23,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,CHE,Switzerland,,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,Denmark,Denmark,1.12,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,Canada,Canada,1.14,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,Japan,Japan,1.14,ratio,Computed,—
+5,f5_ratio_nurse,Ratio of nurse remuneration to mean wage,Australia,Australia,1.24,ratio,Computed,—
+5,f5_mri,Magnetic resonance imaging units,US,United States,38.1,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,UK,United Kingdom,7.2,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,Germany,Germany,30.5,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,Sweden,Sweden,,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,France,France,12.6,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,NLD,Netherlands,12.9,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,CHE,Switzerland,,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,Denmark,Denmark,,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,Canada,Canada,8.9,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,Japan,Japan,51.7,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_mri,Magnetic resonance imaging units,Australia,Australia,14.7,per 1 000 000 population,OECD; Canada: CMWF,2014 or closest
+5,f5_ct,Computed tomography units,US,United States,41.0,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,UK,United Kingdom,9.5,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,Germany,Germany,35.3,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,Sweden,Sweden,,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,France,France,16.6,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,NLD,Netherlands,13.3,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,CHE,Switzerland,36.1,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,Denmark,Denmark,37.1,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,Canada,Canada,12.7,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,Japan,Japan,107.2,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_ct,Computed tomography units,Australia,Australia,56.1,per 1 000 000 population,OECD; Canada 2007,2015 or closest
+5,f5_mammo,Mammography machine units,US,United States,43.3,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,UK,United Kingdom,21.0,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,Germany,Germany,,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,Sweden,Sweden,,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,France,France,7.5,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,NLD,Netherlands,,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,CHE,Switzerland,28.3,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,Denmark,Denmark,14.2,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,Canada,Canada,17.3,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,Japan,Japan,33.0,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_mammo,Mammography machine units,Australia,Australia,23.0,per 1 000 000 population,OECD; UK: journal article,2015 or closest
+5,f5_beds,Hospital beds per 1000 population,US,United States,2.8,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,UK,United Kingdom,2.7,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,Germany,Germany,8.2,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,Sweden,Sweden,2.5,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,France,France,6.1,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,NLD,Netherlands,3.3,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,CHE,Switzerland,4.6,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,Denmark,Denmark,2.7,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,Canada,Canada,2.7,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,Japan,Japan,13.2,per 1000 population,OECD,2014 or closest
+5,f5_beds,Hospital beds per 1000 population,Australia,Australia,3.8,per 1000 population,OECD,2014 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,US,United States,38.8,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,UK,United Kingdom,49.5,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,Germany,Germany,53.1,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,Sweden,Sweden,70.6,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,France,France,59.0,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,NLD,Netherlands,65.5,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,CHE,Switzerland,67.6,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,Denmark,Denmark,48.9,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,Canada,Canada,53.7,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,Japan,Japan,35.1,per 1000 population aged 65+,OECD,2015 or closest
+5,f5_ltcbeds,Long-term beds per 1000 population aged ≥65 y,Australia,Australia,54.0,per 1000 population aged 65+,OECD,2015 or closest
+7,f7_dis_ami,Acute myocardial infarction,US,United States,192.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,UK,United Kingdom,160.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,Germany,Germany,287.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,Sweden,Sweden,273.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,France,France,124.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,NLD,Netherlands,175.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,CHE,Switzerland,223.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,Denmark,Denmark,174.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,Canada,Canada,193.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,Japan,Japan,89.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_ami,Acute myocardial infarction,Australia,Australia,196.0,per 100 000 population,OECD; US 2010,2016 or closest
+7,f7_dis_mental,Mental and behavioral,US,United States,679.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,UK,United Kingdom,269.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,Germany,Germany,1719.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,Sweden,Sweden,1068.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,France,France,368.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,NLD,Netherlands,119.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,CHE,Switzerland,1182.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,Denmark,Denmark,892.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,Canada,Canada,629.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,Japan,Japan,319.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_mental,Mental and behavioral,Australia,Australia,856.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,US,United States,365.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,UK,United Kingdom,459.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,Germany,Germany,380.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,Sweden,Sweden,432.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,France,France,271.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,NLD,Netherlands,224.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,CHE,Switzerland,269.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,Denmark,Denmark,567.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,Canada,Canada,187.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,Japan,Japan,378.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_pneu,Pneumonia,Australia,Australia,338.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,US,United States,230.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,UK,United Kingdom,251.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,Germany,Germany,352.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,Sweden,Sweden,186.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,France,France,138.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,NLD,Netherlands,161.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,CHE,Switzerland,142.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,Denmark,Denmark,234.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,Canada,Canada,241.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,Japan,Japan,45.0,per 100 000 population,OECD,2016 or closest
+7,f7_dis_copd,Chronic obstructive pulmonary disease,Australia,Australia,286.0,per 100 000 population,OECD,2016 or closest
+7,f7_mri_ex,Magnetic resonance imaging,US,United States,118.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,UK,United Kingdom,53.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,Germany,Germany,131.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,Sweden,Sweden,,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,France,France,105.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,NLD,Netherlands,52.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,CHE,Switzerland,70.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,Denmark,Denmark,82.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,Canada,Canada,56.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,Japan,Japan,112.0,per 1000 population,OECD,2015 or closest
+7,f7_mri_ex,Magnetic resonance imaging,Australia,Australia,41.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,US,United States,245.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,UK,United Kingdom,79.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,Germany,Germany,144.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,Sweden,Sweden,,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,France,France,197.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,NLD,Netherlands,81.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,CHE,Switzerland,100.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,Denmark,Denmark,162.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,Canada,Canada,153.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,Japan,Japan,231.0,per 1000 population,OECD,2015 or closest
+7,f7_ct_ex,Computed tomography,Australia,Australia,120.0,per 1000 population,OECD,2015 or closest
+7,f7_hip,Total hip replacement per 100 000 population,US,United States,204.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,UK,United Kingdom,183.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,Germany,Germany,283.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,Sweden,Sweden,234.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,France,France,236.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,NLD,Netherlands,216.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,CHE,Switzerland,292.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,Denmark,Denmark,237.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,Canada,Canada,136.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,Japan,Japan,90.0,per 100 000 population,OECD,2013 or closest
+7,f7_hip,Total hip replacement per 100 000 population,Australia,Australia,171.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,US,United States,226.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,UK,United Kingdom,141.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,Germany,Germany,190.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,Sweden,Sweden,124.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,France,France,145.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,NLD,Netherlands,118.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,CHE,Switzerland,176.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,Denmark,Denmark,168.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,Canada,Canada,166.0,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,Japan,Japan,,per 100 000 population,OECD,2013 or closest
+7,f7_knee,Total knee replacement per 100 000 population,Australia,Australia,180.0,per 100 000 population,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,US,United States,266.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,UK,United Kingdom,161.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,Germany,Germany,301.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,Sweden,Sweden,186.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,France,France,182.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,NLD,Netherlands,167.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,CHE,Switzerland,291.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,Denmark,Denmark,197.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,Canada,Canada,232.0,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,Japan,Japan,,per 100 000 females,OECD,2013 or closest
+7,f7_hyst,Hysterectomy per 100 000 women,Australia,Australia,262.0,per 100 000 females,OECD,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,US,United States,33.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,UK,United Kingdom,23.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,Germany,Germany,31.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,Sweden,Sweden,17.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,France,France,21.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,NLD,Netherlands,16.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,CHE,Switzerland,33.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,Denmark,Denmark,21.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,Canada,Canada,26.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,Japan,Japan,18.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_csec,Cesarean delivery per 100 live births,Australia,Australia,32.0,per 100 live births,OECD Health at a Glance 2015,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,US,United States,1110.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,UK,United Kingdom,736.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,Germany,Germany,1027.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,Sweden,Sweden,1029.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,France,France,1207.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,NLD,Netherlands,1005.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,CHE,Switzerland,438.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,Denmark,Denmark,1037.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,Canada,Canada,1060.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,Japan,Japan,,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cat,Cataract surgery per 100 000 population,Australia,Australia,1060.0,per 100 000 population,OECD.stat,2013 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,US,United States,79.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,UK,United Kingdom,26.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,Germany,Germany,64.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,Sweden,Sweden,31.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,France,France,29.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,NLD,Netherlands,69.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,CHE,Switzerland,,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,Denmark,Denmark,73.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,Canada,Canada,58.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,Japan,Japan,,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_cabg,Coronary artery bypass graft surgery,Australia,Australia,54.0,per 100 000 population,OECD Health at a Glance 2015,2015 or closest
+7,f7_ptca,Coronary angioplasty,US,United States,248.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,UK,United Kingdom,128.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,Germany,Germany,393.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,Sweden,Sweden,205.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,France,France,237.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,NLD,Netherlands,248.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,CHE,Switzerland,,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,Denmark,Denmark,190.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,Canada,Canada,157.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,Japan,Japan,193.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_ptca,Coronary angioplasty,Australia,Australia,172.0,per 100 000 population,OECD; US from HCUP (incl. outpatient),2015 or closest
+7,f7_los_del,Normal delivery,US,United States,2.0,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,UK,United Kingdom,1.5,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,Germany,Germany,2.9,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,Sweden,Sweden,2.3,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,France,France,4.1,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,NLD,Netherlands,1.9,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,CHE,Switzerland,3.6,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,Denmark,Denmark,2.7,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,Canada,Canada,1.6,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,Japan,Japan,5.7,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_del,Normal delivery,Australia,Australia,2.7,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,US,United States,5.4,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,UK,United Kingdom,7.1,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,Germany,Germany,10.3,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,Sweden,Sweden,4.7,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,France,France,6.0,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,NLD,Netherlands,5.6,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,CHE,Switzerland,7.3,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,Denmark,Denmark,3.9,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,Canada,Canada,5.5,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,Japan,Japan,,days,OECD Health at a Glance 2015,2013 or closest
+7,f7_los_ami,Acute myocardial infarction,Australia,Australia,5.4,days,OECD Health at a Glance 2015,2013 or closest
+9,f9_total,"Total spending per capita, US $",US,United States,1443.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",UK,United Kingdom,779.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",Germany,Germany,667.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",Sweden,Sweden,566.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",France,France,697.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",NLD,Netherlands,466.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",CHE,Switzerland,939.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",Denmark,Denmark,675.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",Canada,Canada,613.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",Japan,Japan,837.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_total,"Total spending per capita, US $",Australia,Australia,560.0,US$ per capita,IMS Health (2016) or IFPMA (2014),2014-2016
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",US,United States,1026.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",UK,United Kingdom,383.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",Germany,Germany,480.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",Sweden,Sweden,501.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",France,France,541.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",NLD,Netherlands,292.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",CHE,Switzerland,776.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",Denmark,Denmark,573.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",Canada,Canada,587.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",Japan,Japan,443.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_retail,"Retail pharmaceutical spending per capita, US $",Australia,Australia,346.0,US$ PPP per capita,OECD.stat,2015 or closest
+9,f9_crestor,Crestor (cholesterol),US,United States,86.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),UK,United Kingdom,26.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),Germany,Germany,41.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),Sweden,Sweden,,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),France,France,20.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),NLD,Netherlands,,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),CHE,Switzerland,,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),Denmark,Denmark,,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),Canada,Canada,32.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),Japan,Japan,29.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_crestor,Crestor (cholesterol),Australia,Australia,9.0,US$ per month,Bloomberg 2015 drug-price graphic (SSR Health / IHS),2015
+9,f9_lantus,Lantus (diabetes),US,United States,186.0,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),UK,United Kingdom,64.0,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),Germany,Germany,54.0,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),Sweden,Sweden,,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),France,France,47.0,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),NLD,Netherlands,,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),CHE,Switzerland,,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),Denmark,Denmark,,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),Canada,Canada,67.0,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),Japan,Japan,64.0,US$ per month,Bloomberg 2015,2015
+9,f9_lantus,Lantus (diabetes),Australia,Australia,54.0,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),US,United States,155.0,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),UK,United Kingdom,,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),Germany,Germany,38.0,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),Sweden,Sweden,,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),France,France,35.0,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),NLD,Netherlands,,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),CHE,Switzerland,,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),Denmark,Denmark,,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),Canada,Canada,74.0,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),Japan,Japan,51.0,US$ per month,Bloomberg 2015,2015
+9,f9_advair,Advair (asthma),Australia,Australia,29.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),US,United States,2505.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),UK,United Kingdom,1158.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),Germany,Germany,1749.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),Sweden,Sweden,,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),France,France,982.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),NLD,Netherlands,,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),CHE,Switzerland,,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),Denmark,Denmark,,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),Canada,Canada,1164.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),Japan,Japan,980.0,US$ per month,Bloomberg 2015,2015
+9,f9_humira,Humira (rheumatoid arthritis),Australia,Australia,1243.0,US$ per month,Bloomberg 2015,2015
+9,f9_nce,"New chemical entities, No.",US,United States,111.0,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",UK,United Kingdom,16.0,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",Germany,Germany,12.0,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",Sweden,Sweden,,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",France,France,11.0,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",NLD,Netherlands,,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",CHE,Switzerland,26.0,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",Denmark,Denmark,,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",Canada,Canada,,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",Japan,Japan,18.0,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_nce,"New chemical entities, No.",Australia,Australia,,count,"Daemmrich 2009, HBS working paper",1982-2003 (cumulative)
+9,f9_fin_pub,Public spending,US,United States,34.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,UK,United Kingdom,66.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,Germany,Germany,75.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,Sweden,Sweden,52.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,France,France,80.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,NLD,Netherlands,65.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,CHE,Switzerland,43.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,Denmark,Denmark,43.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,Canada,Canada,36.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,Japan,Japan,71.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_pub,Public spending,Australia,Australia,49.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,US,United States,36.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,UK,United Kingdom,0.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,Germany,Germany,7.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,Sweden,Sweden,0.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,France,France,1.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,NLD,Netherlands,2.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,CHE,Switzerland,8.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,Denmark,Denmark,8.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,Canada,Canada,30.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,Japan,Japan,1.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_vhi,Private insurance,Australia,Australia,0.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,US,United States,30.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,UK,United Kingdom,36.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,Germany,Germany,18.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,Sweden,Sweden,48.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,France,France,19.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,NLD,Netherlands,33.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,CHE,Switzerland,51.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,Denmark,Denmark,51.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,Canada,Canada,34.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,Japan,Japan,28.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_fin_oop,Private out-of-pocket spending,Australia,Australia,50.0,% of retail pharma spending,OECD Health at a Glance 2015,2011 or closest
+9,f9_gen_vol,Volume,US,United States,84.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,UK,United Kingdom,83.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,Germany,Germany,80.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,Sweden,Sweden,44.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,France,France,70.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,NLD,Netherlands,17.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,CHE,Switzerland,54.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,Denmark,Denmark,54.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,Canada,Canada,70.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,Japan,Japan,56.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_vol,Volume,Australia,Australia,30.0,% of pharma market volume,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,US,United States,28.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,UK,United Kingdom,33.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,Germany,Germany,37.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,Sweden,Sweden,15.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,France,France,16.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,NLD,Netherlands,16.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,CHE,Switzerland,14.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,Denmark,Denmark,14.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,Canada,Canada,29.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,Japan,Japan,33.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_gen_val,Value,Australia,Australia,15.0,% of pharma market value,OECD HaaG (p187); Japan: Cabinet Office,2013 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",US,United States,24.0,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",UK,United Kingdom,20.1,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",Germany,Germany,14.4,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",Sweden,Sweden,12.9,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",France,France,29.9,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",NLD,Netherlands,10.7,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",CHE,Switzerland,,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",Denmark,Denmark,16.6,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",Canada,Canada,25.0,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",Japan,Japan,,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+9,f9_abx,"Antibiotic prescribing, defined daily doses per 1000 population",Australia,Australia,28.3,DDD per 1000 population per day,OECD Health at a Glance 2017; US 2004,2015 or closest
+10,f10_sameday,Able to get same- or next- day appointment,US,United States,51.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,UK,United Kingdom,57.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,Germany,Germany,53.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,Sweden,Sweden,49.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,France,France,56.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,NLD,Netherlands,77.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,CHE,Switzerland,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,Canada,Canada,43.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_sameday,Able to get same- or next- day appointment,Australia,Australia,67.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,US,United States,6.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,UK,United Kingdom,19.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,Germany,Germany,3.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,Sweden,Sweden,19.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,France,France,4.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,NLD,Netherlands,7.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,CHE,Switzerland,9.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,Canada,Canada,39.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_wait,2-mo Wait time to see specialist,Australia,Australia,13.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_time,Adequate time with regular (primary) physician,US,United States,81.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,UK,United Kingdom,86.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,Germany,Germany,88.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,Sweden,Sweden,78.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,France,France,,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,NLD,Netherlands,85.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,CHE,Switzerland,84.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,Denmark,Denmark,,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,Canada,Canada,79.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,Japan,Japan,,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_time,Adequate time with regular (primary) physician,Australia,Australia,83.0,% of patients,OECD.stat Health Care Quality Indicators (patient experience),2016 or closest
+10,f10_works,System works well,US,United States,19.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,UK,United Kingdom,44.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,Germany,Germany,60.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,Sweden,Sweden,44.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,France,France,54.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,NLD,Netherlands,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,CHE,Switzerland,58.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,Canada,Canada,35.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_works,System works well,Australia,Australia,44.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,US,United States,53.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,UK,United Kingdom,46.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,Germany,Germany,37.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,Sweden,Sweden,46.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,France,France,41.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,NLD,Netherlands,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,CHE,Switzerland,37.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,Canada,Canada,55.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_fund,Fundamental changes needed,Australia,Australia,46.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,US,United States,23.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,UK,United Kingdom,7.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,Germany,Germany,3.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,Sweden,Sweden,10.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,France,France,4.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,NLD,Netherlands,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,CHE,Switzerland,3.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,Canada,Canada,9.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_rebuild,Complete rebuild of health system needed,Australia,Australia,4.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+10,f10_measles,"Measles immunization, % of children",US,United States,92.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",UK,United Kingdom,93.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",Germany,Germany,97.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",Sweden,Sweden,98.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",France,France,91.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",NLD,Netherlands,96.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",CHE,Switzerland,93.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",Denmark,Denmark,91.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",Canada,Canada,90.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",Japan,Japan,98.0,% of children,OECD.stat,2015 or closest
+10,f10_measles,"Measles immunization, % of children",Australia,Australia,93.0,% of children,OECD.stat,2015 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",US,United States,81.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",UK,United Kingdom,76.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",Germany,Germany,71.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",Sweden,Sweden,75.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",France,France,52.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",NLD,Netherlands,79.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",CHE,Switzerland,47.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",Denmark,Denmark,84.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",Canada,Canada,72.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",Japan,Japan,41.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_mammo,"Breast cancer screening, % of women aged 50-69 y",Australia,Australia,55.0,% of women 50-69,OECD.stat; Sweden 40-49 y study,2013 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,US,United States,4.2,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,UK,United Kingdom,9.2,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,Germany,Germany,6.4,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,Sweden,Sweden,9.6,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,France,France,7.9,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,NLD,Netherlands,,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,CHE,Switzerland,6.9,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,Denmark,Denmark,,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,Canada,Canada,10.0,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,Japan,Japan,,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_stroke,30-d Stroke mortality per 100 patients,Australia,Australia,9.3,per 100 admissions (age-sex standardised),OECD HCQI,2014 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,US,United States,5.5,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,UK,United Kingdom,7.6,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,Germany,Germany,8.7,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,Sweden,Sweden,8.3,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,France,France,7.2,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,NLD,Netherlands,,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,CHE,Switzerland,7.7,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,Denmark,Denmark,,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,Canada,Canada,6.7,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,Japan,Japan,,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_ami,30-d Mortality per 1000 patients with acute myocardial infarction,Australia,Australia,4.1,per 100 admissions (age-sex standardised),OECD HCQI,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,US,United States,4.1,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,UK,United Kingdom,6.1,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,Germany,Germany,5.5,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,Sweden,Sweden,4.6,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,France,France,6.2,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,NLD,Netherlands,,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,CHE,Switzerland,12.3,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,Denmark,Denmark,,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,Canada,Canada,8.6,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,Japan,Japan,,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_fb,Foreign body left per 100 000 discharges,Australia,Australia,8.6,per 100 000 discharges,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,US,United States,1.5,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,UK,United Kingdom,2.8,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,Germany,Germany,2.1,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,Sweden,Sweden,2.8,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,France,France,0.6,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,NLD,Netherlands,2.5,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,CHE,Switzerland,2.6,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,Denmark,Denmark,2.6,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,Canada,Canada,3.1,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,Japan,Japan,,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_obs,Obstetric trauma without instrument per 100 deliveries,Australia,Australia,2.4,per 100 vaginal deliveries,OECD HCQI patient safety,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,US,United States,191.0,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,UK,United Kingdom,72.8,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,Germany,Germany,218.3,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,Sweden,Sweden,96.0,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,France,France,150.6,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,NLD,Netherlands,69.8,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,CHE,Switzerland,72.6,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,Denmark,Denmark,113.4,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,Canada,Canada,93.7,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,Japan,Japan,162.3,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab,Diabetes hospitalizations per 100 000 population,Australia,Australia,141.1,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,US,United States,2.0,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,UK,United Kingdom,1.7,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,Germany,Germany,2.4,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,Sweden,Sweden,1.9,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,France,France,1.2,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,NLD,Netherlands,1.2,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,CHE,Switzerland,1.2,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,Denmark,Denmark,1.8,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,Canada,Canada,1.3,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,Japan,Japan,2.8,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_diab_ratio,Diabetes hospitalizations as a ratio of population with diabetes,Australia,Australia,2.8,admissions per 100 people with diabetes (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma,Asthma hospitalizations per 100 000 population,US,United States,89.7,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,UK,United Kingdom,71.0,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,Germany,Germany,28.7,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,Sweden,Sweden,19.0,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,France,France,29.6,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,NLD,Netherlands,36.0,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,CHE,Switzerland,27.5,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,Denmark,Denmark,50.6,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,Canada,Canada,14.6,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,Japan,Japan,34.7,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma,Asthma hospitalizations per 100 000 population,Australia,Australia,64.8,per 100 000 population 15+ (age-sex standardised),OECD Health at a Glance 2015,2013 or closest
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,US,United States,1.2,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,UK,United Kingdom,1.0,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,Germany,Germany,0.7,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,Sweden,Sweden,0.3,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,France,France,0.8,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,NLD,Netherlands,0.7,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,CHE,Switzerland,0.4,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,Denmark,Denmark,0.8,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,Canada,Canada,0.2,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,Japan,Japan,0.3,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+10,f10_asthma_ratio,Asthma hospitalizations as a ratio of population with asthma,Australia,Australia,0.6,admissions per 100 people with asthma (as printed),Computed; prevalence source not documented in 2018,2013
+11,f11_hi,"Horizontal inequity index, %",US,United States,6.0,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",UK,United Kingdom,0.4,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",Germany,Germany,1.0,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",Sweden,Sweden,,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",France,France,1.3,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",NLD,Netherlands,,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",CHE,Switzerland,,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",Denmark,Denmark,,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",Canada,Canada,1.9,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",Japan,Japan,,index ×100,OECD Health at a Glance 2013,2009
+11,f11_hi,"Horizontal inequity index, %",Australia,Australia,,index ×100,OECD Health at a Glance 2013,2009
+11,f11_oop_the,As % of total health expenditure,US,United States,11.0,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,UK,United Kingdom,9.7,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,Germany,Germany,13.2,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,Sweden,Sweden,14.1,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,France,France,6.3,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,NLD,Netherlands,5.2,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,CHE,Switzerland,26.8,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,Denmark,Denmark,13.4,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,Canada,Canada,13.6,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,Japan,Japan,13.9,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_the,As % of total health expenditure,Australia,Australia,18.8,% of health expenditure,World Bank SH.XPD.OOPC.TO.ZS,2014 or closest
+11,f11_oop_hh,As % of household consumption,US,United States,2.6,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,UK,United Kingdom,1.4,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,Germany,Germany,1.8,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,Sweden,Sweden,3.4,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,France,France,1.4,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,NLD,Netherlands,1.3,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,CHE,Switzerland,4.5,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,Denmark,Denmark,2.6,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,Canada,Canada,2.3,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,Japan,Japan,2.2,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_oop_hh,As % of household consumption,Australia,Australia,3.2,% of household final consumption,OECD Health at a Glance 2015,2013 or closest
+11,f11_skip,Consultation skipped because of cost,US,United States,22.3,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,UK,United Kingdom,4.2,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,Germany,Germany,2.6,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,Sweden,Sweden,3.9,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,France,France,9.0,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,NLD,Netherlands,12.5,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,CHE,Switzerland,7.0,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,Denmark,Denmark,,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,Canada,Canada,6.6,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,Japan,Japan,,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_skip,Consultation skipped because of cost,Australia,Australia,16.2,% of adults with a medical problem,OECD.stat (from CMWF/EHIS),2016 or closest
+11,f11_unmet_low,"% Unmet need, below-average income",US,United States,43.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",UK,United Kingdom,8.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",Germany,Germany,16.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",Sweden,Sweden,16.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",France,France,30.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",NLD,Netherlands,29.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",CHE,Switzerland,31.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",Canada,Canada,30.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_low,"% Unmet need, below-average income",Australia,Australia,24.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",US,United States,32.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",UK,United Kingdom,7.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",Germany,Germany,6.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",Sweden,Sweden,7.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",France,France,14.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",NLD,Netherlands,16.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",CHE,Switzerland,22.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",Denmark,Denmark,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",Canada,Canada,13.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",Japan,Japan,,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_unmet_high,"% Unmet need, above-average income",Australia,Australia,13.0,% of adults,Commonwealth Fund IHP Survey 2016,2016
+11,f11_rural,"Rural population, % of total population",US,United States,18.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",UK,United Kingdom,17.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",Germany,Germany,18.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",Sweden,Sweden,14.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",France,France,20.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",NLD,Netherlands,9.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",CHE,Switzerland,26.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",Denmark,Denmark,12.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",Canada,Canada,18.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",Japan,Japan,6.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_rural,"Rural population, % of total population",Australia,Australia,10.0,% of population,OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,US,United States,35.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,UK,United Kingdom,271.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,Germany,Germany,237.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,Sweden,Sweden,24.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,France,France,122.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,NLD,Netherlands,505.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,CHE,Switzerland,212.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,Denmark,Denmark,136.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,Canada,Canada,4.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,Japan,Japan,348.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_density,Population density per sq mile,Australia,Australia,3.0,persons per km² (label says sq mile),OECD Country Statistical Profiles,2015-2016
+11,f11_phys_urban,Urban physicians per 1000 population,US,United States,3.2,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,UK,United Kingdom,,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,Germany,Germany,2.0,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,Sweden,Sweden,4.5,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,France,France,4.1,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,NLD,Netherlands,,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,CHE,Switzerland,2.8,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,Denmark,Denmark,,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,Canada,Canada,4.1,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,Japan,Japan,2.9,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_urban,Urban physicians per 1000 population,Australia,Australia,2.6,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,US,United States,1.4,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,UK,United Kingdom,,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,Germany,Germany,1.3,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,Sweden,Sweden,3.5,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,France,France,2.5,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,NLD,Netherlands,,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,CHE,Switzerland,4.4,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,Denmark,Denmark,,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,Canada,Canada,0.4,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,Japan,Japan,1.4,per 1000 population,Mixed country studies (eTable 15),various
+11,f11_phys_rural,Rural physicians per 1000 population,Australia,Australia,1.7,per 1000 population,Mixed country studies (eTable 15),various
