@@ -1,0 +1,4 @@
+https://github.com/AIScientists-Dev/academic-humanizer.git 94b88b23703bed7df507acae7d6d5876209a0cdf
+https://github.com/blader/humanizer.git 225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8
+https://github.com/lynote-ai/humanize-text.git c095cdab7757ea94dc7949bf83b2cb697e726e35
+https://github.com/op7418/Humanizer-zh.git f4518a8eab97b8bfebc66a89d34320a89bef6930
