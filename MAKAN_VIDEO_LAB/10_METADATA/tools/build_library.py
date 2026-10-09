@@ -101,6 +101,13 @@ def flatten(img, box=320, pixel=False):
 
 
 def svg_to_png(src, dst):
+    try:  # pip install cairosvg (ImageMagick's SVG delegate is unavailable here)
+        import cairosvg
+        cairosvg.svg2png(url=str(src), write_to=str(dst), output_width=640)
+        if dst.exists():
+            return True
+    except Exception:
+        pass
     for cmd in (["rsvg-convert", "-w", "640", "-b", "none", str(src), "-o", str(dst)],
                 ["convert", "-background", "none", "-density", "200", str(src), "-resize", "640x640", str(dst)]):
         try:
