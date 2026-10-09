@@ -14,6 +14,7 @@ import hashlib
 import html
 import json
 import os
+import re
 import subprocess
 import sys
 import xml.etree.ElementTree as ET
@@ -29,10 +30,13 @@ SHEETS = PREV / "contact_sheets"
 ASSET_DIRS = ["01_VIDEO", "02_PHOTOGRAPHY", "03_PIXEL_ART", "04_ILLUSTRATIONS",
               "05_MUSIC", "06_SOUND_EFFECTS", "07_MOTION_GRAPHICS", "08_TEXTURES"]
 IMG_EXT = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".tif", ".tiff"}
-VID_EXT = {".mp4", ".webm", ".mov", ".mkv", ".avi", ".m4v", ".ogv"}
+VID_EXT = {".mp4", ".webm", ".mov", ".mkv", ".avi", ".m4v", ".ogv", ".mpg", ".mpeg"}
 AUD_EXT = {".wav", ".ogg", ".mp3", ".flac", ".m4a", ".aiff", ".aif", ".opus"}
 FONT_EXT = {".ttf", ".otf", ".woff", ".woff2"}
 SKIP_NAMES = {".DS_Store", "Thumbs.db"}
+# Licenses that hold at repo level only, lack a LICENSE file, or rest on a README claim.
+CAVEAT = re.compile(r"repo-level|no formal|no LICENSE file|by filename|provenance not stated|"
+                    r"license unclear|unverified|README only|only license evidence", re.I)
 DELETE_DUPES = "--no-dedupe-delete" not in sys.argv
 
 FIELDS = ["id", "filename", "category_folder", "asset_type", "title", "artist", "description",
@@ -67,6 +71,11 @@ def ffprobe(p):
 
 
 def dhash(img, size=8):
+    if img.mode in ("RGBA", "LA", "P"):  # composite on white so transparent areas don't all hash as black
+        img = img.convert("RGBA")
+        bg = Image.new("RGBA", img.size, (255, 255, 255, 255))
+        bg.alpha_composite(img)
+        img = bg
     g = img.convert("L").resize((size + 1, size), Image.LANCZOS)
     px = list(g.tobytes())
     bits = 0
@@ -76,14 +85,22 @@ def dhash(img, size=8):
     return bits
 
 
-def checker(size, sq=12):
-    bg = Image.new("RGB", size, (236, 234, 232))
+def checker(size, sq=12, dark=False):
+    a, b = ((34, 31, 31), (48, 44, 43)) if dark else ((236, 234, 232), (222, 219, 216))
+    bg = Image.new("RGB", size, a)
     d = ImageDraw.Draw(bg)
     for y in range(0, size[1], sq):
         for x in range(0, size[0], sq):
             if (x // sq + y // sq) % 2:
-                d.rectangle([x, y, x + sq - 1, y + sq - 1], fill=(222, 219, 216))
+                d.rectangle([x, y, x + sq - 1, y + sq - 1], fill=b)
     return bg
+
+
+def mostly_light(img):
+    """True when the visible pixels of an RGBA image are near-white (e.g. glow overlays)."""
+    small = img.resize((64, 64))
+    px = [(r + g + b) / 3 for r, g, b, a in zip(*[iter(small.tobytes())] * 4) if a > 40]
+    return bool(px) and sum(px) / len(px) > 200
 
 
 def flatten(img, box=320, pixel=False):
@@ -94,7 +111,7 @@ def flatten(img, box=320, pixel=False):
         img = img.resize((max(1, int(img.width * scale)), max(1, int(img.height * scale))), resample)
     if img.mode in ("RGBA", "LA", "P"):
         img = img.convert("RGBA")
-        bg = checker(img.size)
+        bg = checker(img.size, dark=mostly_light(img))
         bg.paste(img, mask=img.split()[3])
         return bg
     return img.convert("RGB")
@@ -175,7 +192,7 @@ def probe(entry, path, thumb_base):
                     info["frames"] = frames
                     durs = [fr.info.get("duration", 0) for fr in ImageSequence.Iterator(im)]
                     info["duration_sec"] = round(sum(durs) / 1000, 2) or None
-                    im.seek(0)
+                    im.seek(frames // 2)  # first frames of screen-capture GIFs are often blank
                 first = im.convert("RGBA")
                 dh = dhash(first)
                 flatten(first, pixel=is_pixel(entry) and max(im.size) < 320).save(tjpg, quality=86)
@@ -253,7 +270,12 @@ def probe(entry, path, thumb_base):
                 info["width"], info["height"] = data.get("w"), data.get("h")
                 fr = data.get("fr") or 30
                 info["duration_sec"] = round(((data.get("op") or 0) - (data.get("ip") or 0)) / fr, 2)
-                lottie_card(data, tjpg, path.name)
+                render = PREV / "lottie_renders" / (path.stem + ".png")  # from render_lottie.py
+                if render.exists():
+                    with Image.open(render) as im:
+                        im.convert("RGB").save(tjpg, quality=86)
+                else:
+                    lottie_card(data, tjpg, path.name)
                 thumb = tjpg
             return True, info, flags, None, thumb
         # css, txt, zip, etc.: existence is all we can check
@@ -263,6 +285,16 @@ def probe(entry, path, thumb_base):
         return True, info, flags, None, tjpg
     except Exception as e:  # noqa: BLE001 - QC must never crash on one bad file
         return False, info, [f"error:{type(e).__name__}"], None, None
+
+
+def is_support(p):
+    """License/readme texts and files that live inside a bundled package directory."""
+    name = p.name.lower()
+    if name.startswith(("license", "copying", "ofl", "attribution", "readme", "credits")):
+        return True
+    if p.suffix.lower() in (".txt", ".md", ".css"):
+        return True
+    return any(part.startswith("css_") for part in p.parts)
 
 
 def load_entries():
@@ -308,13 +340,25 @@ def main():
         else:
             linkonly.append(e)
 
-    # Orphans: files on disk with no metadata row.
-    on_disk = set()
+    # Orphans: files on disk with no metadata row. License texts and files bundled inside a
+    # package (fonts in a CSS kit) are support files; PNG renders inherit their SVG's metadata.
+    support = []
     for d in ASSET_DIRS:
-        for p in (ROOT / d).rglob("*"):
+        for p in sorted((ROOT / d).rglob("*")):
             if p.is_file() and p.name not in SKIP_NAMES and not p.name.startswith("."):
                 rel = p.relative_to(ROOT).as_posix()
-                on_disk.add(rel)
+                if rel in by_file:
+                    continue
+                if is_support(p):
+                    support.append(rel)
+                    continue
+                svg = p.with_suffix(".svg").relative_to(ROOT).as_posix()
+                if p.suffix.lower() == ".png" and svg in by_file:
+                    clone = dict(by_file[svg])
+                    clone.update({"filename": rel, "format": "png", "has_alpha": True,
+                                  "notes": ("PNG render of " + svg + ". " + str(clone.get("notes") or "")).strip()})
+                    by_file[rel] = clone
+                    continue
                 if rel not in by_file:
                     by_file[rel] = {"filename": rel, "category_folder": d, "download_status": "downloaded",
                                     "agent": "orphan", "notes": "No metadata row from an agent; provenance unknown.",
@@ -342,7 +386,7 @@ def main():
             e["qc_flags"] = flags + [f"duplicate_of:{keep['filename']}"]
             e["download_status"] = "removed_duplicate"
             removed.append(rel)
-            if DELETE_DUPES:
+            if DELETE_DUPES and not is_support(p):
                 p.unlink()
             continue
         hashes[h] = e
@@ -361,8 +405,10 @@ def main():
         lic = str(e.get("license") or "").upper()
         if not lic or "UNKNOWN" in lic or "UNCLEAR" in lic:
             flags.append("license_unverified")
-        elif any(t in lic for t in ("NC", "ND", "GPL", "SA", "EDITORIAL")):
+        elif set(re.findall(r"[A-Z]+", lic)) & {"NC", "ND", "SA", "GPL", "SHAREALIKE", "NONCOMMERCIAL", "EDITORIAL"}:
             flags.append("license_restrictions")
+        if CAVEAT.search(f'{e.get("license", "")} {e.get("notes", "")}'):
+            flags.append("license_caveat")
         if e.get("attribution_required"):
             flags.append("attribution_required")
         e["qc_flags"] = sorted(set(flags))
@@ -376,7 +422,7 @@ def main():
     sim = {i: [] for i in ids}
     for a in range(len(ids)):
         for b in range(a + 1, len(ids)):
-            if bin(dhashes[ids[a]] ^ dhashes[ids[b]]).count("1") <= 5:
+            if bin(dhashes[ids[a]] ^ dhashes[ids[b]]).count("1") <= 3:
                 sim[ids[a]].append(ids[b])
                 sim[ids[b]].append(ids[a])
     id2file = {e["id"]: e["filename"] for e in assets}
@@ -439,6 +485,7 @@ def main():
             "by_folder": {d: len([e for e in live if e["category_folder"] == d]) for d in ASSET_DIRS},
         },
         "contact_sheets": sheet_index,
+        "support_files": support,
         "assets": all_rows,
     }
     (META / "manifest.json").write_text(json.dumps(manifest, indent=1, ensure_ascii=False), encoding="utf-8")

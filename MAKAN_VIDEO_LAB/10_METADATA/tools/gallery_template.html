@@ -36,8 +36,10 @@ main{padding:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(190
 dialog{max-width:min(900px,96vw);width:100%;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);padding:0}
 dialog::backdrop{background:#0008}
 .dlg{padding:16px}
-.pv{background:#0E0C0C;border-radius:8px;display:flex;justify-content:center;max-height:60vh;overflow:hidden}
+.pv{background:repeating-conic-gradient(#E6E4E3 0 25%,#D6D2CF 0 50%) 0 0/24px 24px;border-radius:8px;display:flex;justify-content:center;align-items:center;max-height:60vh;min-height:200px;overflow:hidden}
+.pv.dark{background:#0E0C0C}
 .pv img,.pv video{max-width:100%;max-height:60vh;object-fit:contain}
+.pv img.px{min-width:256px;image-rendering:pixelated}
 .pv audio{width:100%;margin:20px}
 table{border-collapse:collapse;width:100%;margin-top:12px;font-size:12px}
 td{border-top:1px solid var(--line);padding:5px 6px;vertical-align:top;word-break:break-word}
@@ -68,6 +70,8 @@ a{color:var(--red)}
 <dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
 <script>
 const DATA = /*__DATA__*/[];
+const RANK = {high: 0, medium: 1, low: 2};
+DATA.sort((a, b) => (RANK[a.reference_match] ?? 3) - (RANK[b.reference_match] ?? 3) || String(a.filename).localeCompare(String(b.filename)));
 const COUNTS = /*__COUNTS__*/{};
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -128,14 +132,14 @@ $("#grid").addEventListener("click", e => {
   let pv = "";
   if (/\.(mp4|webm|mov|m4v|ogv)$/i.test(f)) pv = `<video src="${esc(f)}" controls autoplay loop muted playsinline></video>`;
   else if (/\.(wav|ogg|mp3|flac|m4a|opus)$/i.test(f)) pv = `<div style="width:100%">${d.thumbnail?`<img src="${esc(d.thumbnail)}" style="width:100%">`:""}<audio src="${esc(f)}" controls autoplay></audio></div>`;
-  else if (/\.(png|jpe?g|gif|webp|svg|bmp)$/i.test(f)) pv = `<img src="${esc(f)}" alt="">`;
+  else if (/\.(png|jpe?g|gif|webp|svg|bmp)$/i.test(f)) pv = `<img src="${esc(f)}" alt=""${(d.width||999) < 200 ? ' class="px"' : ""}>`;
   else if (d.thumbnail) pv = `<img src="${esc(d.thumbnail)}" alt="">`;
   const rowsHtml = Object.entries(d).filter(([k]) => !["id","thumbnail"].includes(k)).map(([k,v]) => {
     let val = Array.isArray(v) ? v.join(", ") : v;
     if (/url/.test(k) && val) val = `<a href="${esc(val)}" target="_blank" rel="noopener">${esc(val)}</a>`; else val = esc(val);
     return `<tr><td>${esc(k)}</td><td>${val}</td></tr>`;
   }).join("");
-  $("#dlgBody").innerHTML = `<div class="row"><strong>${esc(f || d.title || "link-only lead")}</strong><span><button type="button" id="cp">copy path</button> <button type="button" id="cl">close</button></span></div>${pv?`<div class="pv">${pv}</div>`:""}<table>${rowsHtml}</table>`;
+  $("#dlgBody").innerHTML = `<div class="row"><strong>${esc(f || d.title || "link-only lead")}</strong><span><button type="button" id="cp">copy path</button> <button type="button" id="cl">close</button></span></div>${pv?`<div class="pv${/\.(mp4|webm|mov|m4v|ogv|wav|ogg|mp3|flac|m4a|opus)$/i.test(f) || /overlay/.test(f) ? " dark" : ""}">${pv}</div>`:""}<table>${rowsHtml}</table>`;
   $("#cl").onclick = () => $("#dlg").close();
   $("#cp").onclick = () => { try { navigator.clipboard.writeText("MAKAN_VIDEO_LAB/" + f); } catch (_) {} };
   $("#dlg").showModal();
