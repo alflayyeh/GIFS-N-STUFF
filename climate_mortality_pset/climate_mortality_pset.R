@@ -44,24 +44,25 @@ ggplot(by_year, aes(x = year, y = drate_6599)) +
   geom_point() +
   labs(title = "Mortality rate (65+) by year", y = "Deaths per 100,000")
 
-# 1C. map of the average by state
+# 1C. map of the average by state (Guide 4.4)
 by_state <- df %>%
   group_by(stfips) %>%
-  summarise(ave_temp = mean(ave_temp), drate_6599 = mean(drate_6599)) %>%
-  mutate(fips = sprintf("%02d", stfips))
+  summarise(ave_temp = mean(ave_temp), drate_6599 = mean(drate_6599))
 
-plot_usmap(data = by_state, values = "ave_temp") +
+by_state$fips <- by_state$stfips   # usmap needs a variable called fips
+
+plot_usmap(data = by_state, regions = "state", values = "ave_temp") +
   scale_fill_continuous(low = "lightyellow", high = "red", name = "Avg temp (F)") +
   labs(title = "Average temperature by state")
 
-plot_usmap(data = by_state, values = "drate_6599") +
+plot_usmap(data = by_state, regions = "state", values = "drate_6599") +
   scale_fill_continuous(low = "lightyellow", high = "darkred", name = "Deaths per 100k") +
   labs(title = "Mortality rate (65+) by state")
 
 #### 2. Cross-sectional correlations ####
 
-# 2A. binned scatterplot, no controls
-binsreg(y = df$drate_6599, x = df$ave_temp)
+# 2A. binned scatterplot, no controls (Guide 4.3)
+binsreg(y = drate_6599, x = ave_temp, data = df)
 
 # 2B. binned scatterplot with state and year fixed effects as controls
 W <- model.matrix(~ factor(stfips) + factor(year), data = df)[, -1]
